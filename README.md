@@ -41,3 +41,13 @@ python -m unittest discover -s tests
 
 12 tests cover jail escapes, allowlist decisions, pipeline splitting, env
 scrubbing, timeouts, redirect-target validation, and audit logging.
+
+## Demo
+
+`demo.py` reproduces the recorded demo run end to end, offline (standard
+library only, no model calls):
+
+    python demo.py
+
+It executes the library's real code path and prints the same output shown in
+the recorded demo video.
